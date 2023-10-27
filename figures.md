@@ -1,5 +1,5 @@
 ---
-theme: seriph
+theme: seriph 
 background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
 highlighter: shiki
@@ -66,11 +66,6 @@ layout: quote
 # “The simple graph has brought more information to the data analyst’s mind than any other device.” 
 
 John Tukey
----
-layout: iframe
-url: https://en.wikipedia.org/wiki/John_Tukey
----
-# John Tukey
 
 ---
 layout: image-right
@@ -81,7 +76,7 @@ image: https://matplotlib.org/3.3.3/_images/sphx_glr_anscombe_001.png
 Anscombe's quartet is a group of datasets (x, y) that have the same mean, standard deviation, and regression line, but which are qualitatively different.
 It is often used to illustrate the importance of looking at a set of data graphically and not only relying on basic statistic properties.
 
-<AutoFitText :max="10" :min="2" modelValue="Source: https://matplotlib.org/3.3.3/gallery/specialty_plots/anscombe.html" class="text-gray-700 text-s"/>
+<AutoFitText :max="10" :min="2" modelValue="Source: https://matplotlib.org/3.3.3/gallery/specialty_plots/anscombe.html" />
 
 ---
 transition: fade-out
@@ -97,13 +92,19 @@ transition: fade-out
 <img src="https://seaborn.pydata.org/_images/distributions_43_0.png"  />
 </div>
 
-<div class="absolute bottom-5">
+<div class="absolute bottom-5 text-gray-700 text-xs">
 <a href="https://seaborn.pydata.org/_images/distributions_43_0.png">https://seaborn.pydata.org/_images/distributions_43_0.png</a>
 </div>
 
 
 ---
+layout: section
 ---
-<div class="absolute bottom-5">
-The grammar of graphics
-</div>
+# The grammar of graphics
+---
+layout: default 
+---
+# The grammar of graphics
+
+* Not possible to show the syntax for every plotting library, but the underlying principles are the same.
+* One tip: Learn the grammar of graphics and you will be able to use (almost) any plotting library!
