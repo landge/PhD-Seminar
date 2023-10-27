@@ -81,7 +81,7 @@ image: https://matplotlib.org/3.3.3/_images/sphx_glr_anscombe_001.png
 Anscombe's quartet is a group of datasets (x, y) that have the same mean, standard deviation, and regression line, but which are qualitatively different.
 It is often used to illustrate the importance of looking at a set of data graphically and not only relying on basic statistic properties.
 
-<AutoFitText :max="10" :min="2" modelValue="Source: https://matplotlib.org/3.3.3/gallery/specialty_plots/anscombe.html" />
+<AutoFitText :max="10" :min="2" modelValue="Source: https://matplotlib.org/3.3.3/gallery/specialty_plots/anscombe.html" class="text-gray-700 text-s"/>
 
 ---
 transition: fade-out
