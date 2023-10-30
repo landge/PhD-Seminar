@@ -96,6 +96,24 @@ transition: fade-out
 <a href="https://seaborn.pydata.org/_images/distributions_43_0.png">https://seaborn.pydata.org/_images/distributions_43_0.png</a>
 </div>
 
+---
+layout:default
+---
+# Adding visual elements 
+* and being consistent with them!
+<div grid="~ cols-2 gap-4">
+
+<div>
+<img src="/dist_color.png" /> 
+</div>
+
+<div>
+<img src="/penguins.png" /> 
+</div>
+
+</div>
+
+
 
 ---
 layout: section
@@ -108,3 +126,21 @@ layout: default
 
 * Not possible to show the syntax for every plotting library, but the underlying principles are the same.
 * One tip: Learn the grammar of graphics and you will be able to use (almost) any plotting library!
+  * R: ggplot2
+  * Python: plotnine, hvplot, seaborn, ...
+  * Stata
+  * Javascript: Observable, D3.js, ...
+
+---
+layout: default
+---
+# The grammar of graphics (2)
+
+<div class="flex justify-center">
+<figure class="max-w-lg">
+  <img class="h-auto max-w-full rounded-lg" src="/grammer_of_graphics.png" alt="image description">
+  <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Graphics layers</figcaption>
+</figure>
+</div>
+
+
