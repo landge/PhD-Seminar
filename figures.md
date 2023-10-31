@@ -61,9 +61,10 @@ layout:default
 ...portrays the suffering of people and animals wrenched by violence and chaos. The work has become a monumental anti-war symbol and a reminder of the tragedies of the Spanish Civil War.
 
 ---
-layout: section
+layout: section 
 ---
 # Why do we need figures?
+[Example](https://observablehq.com/@observablehq/plot-wealth-health-nations)
 
 ---
 layout: quote
@@ -161,6 +162,7 @@ layout: default
 <img src="/observable.png" />
 ---
 layout: default
+title: Instructions and examples
 ---
 # Introduction and examples
 
@@ -170,9 +172,27 @@ layout: default
 ---
 layout: image 
 image: https://source.unsplash.com/brown-grass-field-near-mountain-under-white-clouds-during-daytime-CBYShj50si0
+title: Next section illustrations
 ---
 <div class="flex justify-center">
 <h2> Illustrations </h2>
 </div>
+---
+layout: default
+---
+# Tips & tricks for good illustrations
+* Choose a good color pallette
+* Contrast
+* Meaning of colors
+* Organize the information
+* Align the elements
+* Consider white space
+* Typography
+* Hierarchy
+* Consistency
+---
+layout: iframe
+url: https://blog.datawrapper.de/beautifulcolors/
+title: colors
 ---
 
