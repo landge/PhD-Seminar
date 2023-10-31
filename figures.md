@@ -30,14 +30,20 @@ transition: fade-out
 - <fluent-emoji-thinking-face /> Why do we need illustrations?
 - <noto-hammer-and-wrench /> Tools at our disposal!
   * <mdi-chart-timeline-variant-shimmer /> Statistical plotting software & libraries - online services
-  * <logos-adobe-illustrator /> <logos-adobe-photoshop /> Graphics software - online services
+  * <logos-adobe-illustrator /> <logos-adobe-photoshop /> Graphics software - online services:w
+
 - <twemoji-robot/> Will AI save us?
 
 <!-- Second slide -->
 ---
-layout: section
+layout: image
+image: https://source.unsplash.com/blue-and-clear-body-of-water-K785Da4A_JA 
+class: text-center
 ---
-# Why do we need illustrations?
+
+<div class="flex justify-center">
+<h2> Why do we need illustrations?</h2>
+</div>
 
 ---
 layout: quote
@@ -66,6 +72,11 @@ layout: quote
 # “The simple graph has brought more information to the data analyst’s mind than any other device.” 
 
 John Tukey
+---
+layout: section
+---
+# Statistical figures 
+## Data visualization
 
 ---
 layout: image-right
@@ -142,5 +153,26 @@ layout: default
   <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Graphics layers</figcaption>
 </figure>
 </div>
+---
+layout: default
+---
+# Observable notebooks
 
+<img src="/observable.png" />
+---
+layout: default
+---
+# Introduction and examples
+
+* <a href="https://observablehq.com/explore">Explore trending notebooks!</a>
+* <a href="https://observablehq.com/d/7105d550682e6500">Examples</a>
+* AI - Live coding example.
+---
+layout: image 
+image: https://source.unsplash.com/brown-grass-field-near-mountain-under-white-clouds-during-daytime-CBYShj50si0
+---
+<div class="flex justify-center">
+<h2> Illustrations </h2>
+</div>
+---
 
