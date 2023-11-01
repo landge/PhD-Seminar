@@ -195,4 +195,17 @@ layout: iframe
 url: https://blog.datawrapper.de/beautifulcolors/
 title: colors
 ---
+---
+layout: default
+---
+<img src="/color_wheel.png">
 
+# The color wheel
+Choosing complementary colors takes you very far.
+---
+layout: default 
+---
+# Examples 
+<div>
+<img src="/gaza.png" class="object-cover h-90 w-100"/>
+</div>
