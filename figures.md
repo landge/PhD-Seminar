@@ -180,21 +180,31 @@ title: Next section illustrations
 ---
 layout: default
 ---
-# Tips & tricks for good illustrations
-* Choose a good color pallette
-* Contrast
-* Meaning of colors
-* Organize the information
-* Align the elements
-* Consider white space
-* Typography
-* Hierarchy
-* Consistency
+# Tips & tricks for designing illustrations
+* Layout
+* Color & Contrast
+* Arrows and labels
+* Alignment
 ---
-layout: iframe
-url: https://blog.datawrapper.de/beautifulcolors/
-title: colors
+layout: default 
 ---
+<div class="grid grid-cols-2 gap-4">
+<div><h2>Examples</h2>
+<p>Layout should guide the reader through your figure</p>
+Tip: Unidirectional flows for step-wise information and cyclical flows for processes
+</div>
+<div><img src="/layout_cheat_sheet.jpg" class="scale-100"/>
+</div>
+</div>
+---
+layout: default 
+---
+<div class="grid grid-cols-2 gap-4">
+<div><h2>Circular design</h2>
+Typical example: Life cycle</div>
+<div><img src="/turtle.jpg" />
+</div>
+</div>
 ---
 layout: default
 ---
